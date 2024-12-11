@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #282D35;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,8 +16,9 @@
 body {
   margin: 0;
   height: 100vh;
-
 }
+
+/* NAVBAR */
 
 header {
   background-color: #21222A;
@@ -39,4 +40,25 @@ nav span {
   font-size: 1.5rem;
   font-weight: 600;
   color: #61DAFB;
+}
+
+/* MAIN */
+
+main {
+  padding: 60px 35px;
+  background-image: url(/src/components/React-logo.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position-x: 140%;
+  background-position-y: 75%;
+}
+
+main h1 {
+  font-weight: 800;
+  font-size: 3.2rem;
+}
+
+main li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
